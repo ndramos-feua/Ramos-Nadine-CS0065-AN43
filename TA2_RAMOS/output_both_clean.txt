@@ -1,0 +1,23 @@
+Rule-Based Vacuum Cleaner: Rooms A and B
+Is room A Dirty or Clean? clean
+Is room B Dirty or Clean? clean
+How many steps should the agent run? 3
+
+Initial state: {'A': 'Clean', 'B': 'Clean'}
+
+Step 1: Started in room A
+Action: Moved to room B.
+Current location: B
+Environment: {'A': 'Clean', 'B': 'Clean'}
+
+Step 2: Started in room B
+Action: Moved to room A.
+Current location: A
+Environment: {'A': 'Clean', 'B': 'Clean'}
+
+Step 3: Started in room A
+Action: Moved to room B.
+Current location: B
+Environment: {'A': 'Clean', 'B': 'Clean'}
+
+Final state: {'A': 'Clean', 'B': 'Clean'}

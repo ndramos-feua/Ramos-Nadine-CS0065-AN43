@@ -1,0 +1,35 @@
+Bonus Vacuum Cleaner: Rooms A, B, and C
+Is room A Dirty or Clean? clean
+Is room B Dirty or Clean? dirty
+Is room C Dirty or Clean? dirty
+How many steps should the agent run? 5
+
+Initial grid:
+[A: Clean (Agent)] [B: Dirty] [C: Dirty]
+
+Step 1: Started in room A
+Action: Moved to room C.
+Current location: C
+[A: Clean] [B: Dirty] [C: Dirty (Agent)]
+
+Step 2: Started in room C
+Action: Cleaned room C.
+Current location: C
+[A: Clean] [B: Dirty] [C: Clean (Agent)]
+
+Step 3: Started in room C
+Action: Moved to room B.
+Current location: B
+[A: Clean] [B: Dirty (Agent)] [C: Clean]
+
+Step 4: Started in room B
+Action: Cleaned room B.
+Current location: B
+[A: Clean] [B: Clean (Agent)] [C: Clean]
+
+Step 5: Started in room B
+Action: All rooms are clean. Agent is idle.
+Current location: B
+[A: Clean] [B: Clean (Agent)] [C: Clean]
+
+Final state: {'A': 'Clean', 'B': 'Clean', 'C': 'Clean'}
